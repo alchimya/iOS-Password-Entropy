@@ -80,6 +80,7 @@ S = 26^3+26^2+26=18278
 <br/>
 T = 18278/1000 ~ 18 seconds (time to attack the password))
 <br/>
+<br/>
 <b>Useful links:</b>
 <br/>
 http://csrc.nist.gov/publications/nistpubs/800-63/SP800-63V1_0_2.pdf
