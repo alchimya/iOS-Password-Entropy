@@ -63,7 +63,7 @@ where
 <b>N</b> is the pool of characters used
 <br/>
 
-b) the <b>Time Required to Exhaustively Search the Password's Space</b> (Time to attack the password) given as: 
+b) the <b>Time Required to Exhaustively Search the Password's Space</b> (Time to attack the password), given as: 
 <br/>
 T = S/G
 <br/>
