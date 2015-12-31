@@ -26,7 +26,7 @@ where
 <br/>
 <b>N</b> is the pool of characters used
 
-For instance a password that only use lowercase characters (as mypassword) would be represented as log2(26) ≈ 4.7 bits of entropy per character.
+For instance a password that only uses lowercase characters (as mypassword) would be represented as log2(26) ≈ 4.7 bits of entropy per character.
 <br/>
 See below some example:
 
