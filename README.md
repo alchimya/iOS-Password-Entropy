@@ -1,5 +1,5 @@
 # iOS-Password-Entropy
-It’s a basic implementation of the Password Entropy, that allows to evaluate how much secure and strong is a password evaluating also an hypothetical hacking attack.
+It’s a basic implementation (Swift and Objective-C) of the Password Entropy, that allows to evaluate how much secure and strong is a password evaluating also an hypothetical hacking attack.
 
 #What is the password entropy?
 
