@@ -107,7 +107,7 @@ Here as example a code snippet:
  //L3SDKPasswordEntropy instance used for the entropy calcuation
   let passwordEntropy:L3SDKPasswordEntropy=L3SDKPasswordEntropy();
 
- //init the L3SDKPasswordEntropy instance and sets the char set
+ //init the L3SDKPasswordEntropy instance and sets the pool of characters
   passwordEntropy.charactersPool=L3SDKDefaultCharacterPools();
   
   //analyze the password
