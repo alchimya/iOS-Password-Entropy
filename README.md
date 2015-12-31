@@ -78,7 +78,7 @@ For instance, for the given password "myp", assuming one thousand guesses per se
 <br/>
 S = 26^3+26^2+26=18278
 <br/>
-T = 18278/1000 ~ 18 seconds (time to attack the password))
+T = 18278/1000 ~ 18 seconds (time to attack the password)
 <br/>
 <br/>
 <b>Useful links:</b>
