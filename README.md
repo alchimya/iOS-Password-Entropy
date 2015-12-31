@@ -1,5 +1,5 @@
 # iOS-Password-Entropy
-It implements a password entropy calculator and allows to check the password strength.
+It’s a basic implementation of the Password Entropy that allows to evaluate how much secure and strong is a password evaluating also an hypothetical hacking attack.
 
 #What is the password entropy?
 
