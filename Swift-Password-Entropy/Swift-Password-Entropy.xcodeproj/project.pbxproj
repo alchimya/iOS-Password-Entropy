@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA63C51A1C35955F00D3364A /* L3SDKDefaultCharacterPools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63C5191C35955F00D3364A /* L3SDKDefaultCharacterPools.swift */; };
+		DA63C51C1C35958300D3364A /* L3SDKPasswordEntropy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63C51B1C35958300D3364A /* L3SDKPasswordEntropy.swift */; };
+		DAB6AD3C1C35925F009C8CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6AD3B1C35925F009C8CB4 /* AppDelegate.swift */; };
+		DAB6AD3E1C35925F009C8CB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6AD3D1C35925F009C8CB4 /* ViewController.swift */; };
+		DAB6AD411C35925F009C8CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB6AD3F1C35925F009C8CB4 /* Main.storyboard */; };
+		DAB6AD431C35925F009C8CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB6AD421C35925F009C8CB4 /* Assets.xcassets */; };
+		DAB6AD461C35925F009C8CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB6AD441C35925F009C8CB4 /* LaunchScreen.storyboard */; };
+		DAB6AD511C35925F009C8CB4 /* Swift_Password_EntropyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6AD501C35925F009C8CB4 /* Swift_Password_EntropyTests.swift */; };
+		DAB6AD5C1C35925F009C8CB4 /* Swift_Password_EntropyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6AD5B1C35925F009C8CB4 /* Swift_Password_EntropyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB6AD4D1C35925F009C8CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB6AD301C35925F009C8CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB6AD371C35925F009C8CB4;
+			remoteInfo = "Swift-Password-Entropy";
+		};
+		DAB6AD581C35925F009C8CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB6AD301C35925F009C8CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB6AD371C35925F009C8CB4;
+			remoteInfo = "Swift-Password-Entropy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA63C5191C35955F00D3364A /* L3SDKDefaultCharacterPools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L3SDKDefaultCharacterPools.swift; sourceTree = "<group>"; };
+		DA63C51B1C35958300D3364A /* L3SDKPasswordEntropy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L3SDKPasswordEntropy.swift; sourceTree = "<group>"; };
+		DAB6AD381C35925F009C8CB4 /* Swift-Password-Entropy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Password-Entropy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB6AD3B1C35925F009C8CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAB6AD3D1C35925F009C8CB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAB6AD401C35925F009C8CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB6AD421C35925F009C8CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB6AD451C35925F009C8CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB6AD471C35925F009C8CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB6AD4C1C35925F009C8CB4 /* Swift-Password-EntropyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Password-EntropyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB6AD501C35925F009C8CB4 /* Swift_Password_EntropyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Password_EntropyTests.swift; sourceTree = "<group>"; };
+		DAB6AD521C35925F009C8CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB6AD571C35925F009C8CB4 /* Swift-Password-EntropyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Password-EntropyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB6AD5B1C35925F009C8CB4 /* Swift_Password_EntropyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Password_EntropyUITests.swift; sourceTree = "<group>"; };
+		DAB6AD5D1C35925F009C8CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB6AD351C35925F009C8CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB6AD491C35925F009C8CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB6AD541C35925F009C8CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA63C5171C35954300D3364A /* L3SDK */ = {
+			isa = PBXGroup;
+			children = (
+				DA63C5181C35954300D3364A /* Security */,
+			);
+			path = L3SDK;
+			sourceTree = "<group>";
+		};
+		DA63C5181C35954300D3364A /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				DA63C5191C35955F00D3364A /* L3SDKDefaultCharacterPools.swift */,
+				DA63C51B1C35958300D3364A /* L3SDKPasswordEntropy.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		DAB6AD2F1C35925F009C8CB4 = {
+			isa = PBXGroup;
+			children = (
+				DAB6AD3A1C35925F009C8CB4 /* Swift-Password-Entropy */,
+				DAB6AD4F1C35925F009C8CB4 /* Swift-Password-EntropyTests */,
+				DAB6AD5A1C35925F009C8CB4 /* Swift-Password-EntropyUITests */,
+				DAB6AD391C35925F009C8CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB6AD391C35925F009C8CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB6AD381C35925F009C8CB4 /* Swift-Password-Entropy.app */,
+				DAB6AD4C1C35925F009C8CB4 /* Swift-Password-EntropyTests.xctest */,
+				DAB6AD571C35925F009C8CB4 /* Swift-Password-EntropyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB6AD3A1C35925F009C8CB4 /* Swift-Password-Entropy */ = {
+			isa = PBXGroup;
+			children = (
+				DA63C5171C35954300D3364A /* L3SDK */,
+				DAB6AD3B1C35925F009C8CB4 /* AppDelegate.swift */,
+				DAB6AD3D1C35925F009C8CB4 /* ViewController.swift */,
+				DAB6AD3F1C35925F009C8CB4 /* Main.storyboard */,
+				DAB6AD421C35925F009C8CB4 /* Assets.xcassets */,
+				DAB6AD441C35925F009C8CB4 /* LaunchScreen.storyboard */,
+				DAB6AD471C35925F009C8CB4 /* Info.plist */,
+			);
+			path = "Swift-Password-Entropy";
+			sourceTree = "<group>";
+		};
+		DAB6AD4F1C35925F009C8CB4 /* Swift-Password-EntropyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB6AD501C35925F009C8CB4 /* Swift_Password_EntropyTests.swift */,
+				DAB6AD521C35925F009C8CB4 /* Info.plist */,
+			);
+			path = "Swift-Password-EntropyTests";
+			sourceTree = "<group>";
+		};
+		DAB6AD5A1C35925F009C8CB4 /* Swift-Password-EntropyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB6AD5B1C35925F009C8CB4 /* Swift_Password_EntropyUITests.swift */,
+				DAB6AD5D1C35925F009C8CB4 /* Info.plist */,
+			);
+			path = "Swift-Password-EntropyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB6AD371C35925F009C8CB4 /* Swift-Password-Entropy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB6AD601C35925F009C8CB4 /* Build configuration list for PBXNativeTarget "Swift-Password-Entropy" */;
+			buildPhases = (
+				DAB6AD341C35925F009C8CB4 /* Sources */,
+				DAB6AD351C35925F009C8CB4 /* Frameworks */,
+				DAB6AD361C35925F009C8CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-Password-Entropy";
+			productName = "Swift-Password-Entropy";
+			productReference = DAB6AD381C35925F009C8CB4 /* Swift-Password-Entropy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB6AD4B1C35925F009C8CB4 /* Swift-Password-EntropyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB6AD631C35925F009C8CB4 /* Build configuration list for PBXNativeTarget "Swift-Password-EntropyTests" */;
+			buildPhases = (
+				DAB6AD481C35925F009C8CB4 /* Sources */,
+				DAB6AD491C35925F009C8CB4 /* Frameworks */,
+				DAB6AD4A1C35925F009C8CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB6AD4E1C35925F009C8CB4 /* PBXTargetDependency */,
+			);
+			name = "Swift-Password-EntropyTests";
+			productName = "Swift-Password-EntropyTests";
+			productReference = DAB6AD4C1C35925F009C8CB4 /* Swift-Password-EntropyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB6AD561C35925F009C8CB4 /* Swift-Password-EntropyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB6AD661C35925F009C8CB4 /* Build configuration list for PBXNativeTarget "Swift-Password-EntropyUITests" */;
+			buildPhases = (
+				DAB6AD531C35925F009C8CB4 /* Sources */,
+				DAB6AD541C35925F009C8CB4 /* Frameworks */,
+				DAB6AD551C35925F009C8CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB6AD591C35925F009C8CB4 /* PBXTargetDependency */,
+			);
+			name = "Swift-Password-EntropyUITests";
+			productName = "Swift-Password-EntropyUITests";
+			productReference = DAB6AD571C35925F009C8CB4 /* Swift-Password-EntropyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB6AD301C35925F009C8CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DomenicoVacchiano;
+				TargetAttributes = {
+					DAB6AD371C35925F009C8CB4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DAB6AD4B1C35925F009C8CB4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DAB6AD371C35925F009C8CB4;
+					};
+					DAB6AD561C35925F009C8CB4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DAB6AD371C35925F009C8CB4;
+					};
+				};
+			};
+			buildConfigurationList = DAB6AD331C35925F009C8CB4 /* Build configuration list for PBXProject "Swift-Password-Entropy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB6AD2F1C35925F009C8CB4;
+			productRefGroup = DAB6AD391C35925F009C8CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB6AD371C35925F009C8CB4 /* Swift-Password-Entropy */,
+				DAB6AD4B1C35925F009C8CB4 /* Swift-Password-EntropyTests */,
+				DAB6AD561C35925F009C8CB4 /* Swift-Password-EntropyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB6AD361C35925F009C8CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB6AD461C35925F009C8CB4 /* LaunchScreen.storyboard in Resources */,
+				DAB6AD431C35925F009C8CB4 /* Assets.xcassets in Resources */,
+				DAB6AD411C35925F009C8CB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB6AD4A1C35925F009C8CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB6AD551C35925F009C8CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB6AD341C35925F009C8CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA63C51A1C35955F00D3364A /* L3SDKDefaultCharacterPools.swift in Sources */,
+				DAB6AD3E1C35925F009C8CB4 /* ViewController.swift in Sources */,
+				DA63C51C1C35958300D3364A /* L3SDKPasswordEntropy.swift in Sources */,
+				DAB6AD3C1C35925F009C8CB4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB6AD481C35925F009C8CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB6AD511C35925F009C8CB4 /* Swift_Password_EntropyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB6AD531C35925F009C8CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB6AD5C1C35925F009C8CB4 /* Swift_Password_EntropyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB6AD4E1C35925F009C8CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB6AD371C35925F009C8CB4 /* Swift-Password-Entropy */;
+			targetProxy = DAB6AD4D1C35925F009C8CB4 /* PBXContainerItemProxy */;
+		};
+		DAB6AD591C35925F009C8CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB6AD371C35925F009C8CB4 /* Swift-Password-Entropy */;
+			targetProxy = DAB6AD581C35925F009C8CB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB6AD3F1C35925F009C8CB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB6AD401C35925F009C8CB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB6AD441C35925F009C8CB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB6AD451C35925F009C8CB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB6AD5E1C35925F009C8CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB6AD5F1C35925F009C8CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB6AD611C35925F009C8CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-Password-Entropy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.Swift-Password-Entropy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB6AD621C35925F009C8CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-Password-Entropy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.Swift-Password-Entropy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAB6AD641C35925F009C8CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift-Password-EntropyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.Swift-Password-EntropyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Password-Entropy.app/Swift-Password-Entropy";
+			};
+			name = Debug;
+		};
+		DAB6AD651C35925F009C8CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift-Password-EntropyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.Swift-Password-EntropyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Password-Entropy.app/Swift-Password-Entropy";
+			};
+			name = Release;
+		};
+		DAB6AD671C35925F009C8CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift-Password-EntropyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.Swift-Password-EntropyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift-Password-Entropy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAB6AD681C35925F009C8CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift-Password-EntropyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.Swift-Password-EntropyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift-Password-Entropy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB6AD331C35925F009C8CB4 /* Build configuration list for PBXProject "Swift-Password-Entropy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB6AD5E1C35925F009C8CB4 /* Debug */,
+				DAB6AD5F1C35925F009C8CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB6AD601C35925F009C8CB4 /* Build configuration list for PBXNativeTarget "Swift-Password-Entropy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB6AD611C35925F009C8CB4 /* Debug */,
+				DAB6AD621C35925F009C8CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB6AD631C35925F009C8CB4 /* Build configuration list for PBXNativeTarget "Swift-Password-EntropyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB6AD641C35925F009C8CB4 /* Debug */,
+				DAB6AD651C35925F009C8CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB6AD661C35925F009C8CB4 /* Build configuration list for PBXNativeTarget "Swift-Password-EntropyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB6AD671C35925F009C8CB4 /* Debug */,
+				DAB6AD681C35925F009C8CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB6AD301C35925F009C8CB4 /* Project object */;
+}
