@@ -94,8 +94,8 @@ https://ritcyberselfdefense.wordpress.com/2011/09/24/how-to-calculate-password-e
 
 To evaluate the password entropry, in order you have:
 - to create an instance of the class <b>L3SDKPasswordEntropy</b> 
-- to setup the pool of characters through the charactersPool array property
-- to call the method analyzePassword passing the password that you want to analyze.
+- to setup the pool of characters through the <b>charactersPool</b> array property
+- to call the method <b>analyzePassword()</b> passing the password that you want to analyze.
 
 Note that into this project you can find the <b>L3SDKDefaultCharacterPools</b> class that defines a basic pool of characters used with the password entropy calculation.
 <br/>
